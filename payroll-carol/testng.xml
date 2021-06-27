@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="logTest">
+    <classes>
+     
+      <class name="test.loginTest"/>
+    </classes>
+     </test> <!-- Test -->
+     <test thread-count="5" name="comTest">
+    <classes>
+     
+     <class name="test.CompanyTest"/>
+     </classes>
+      </test> <!-- Test -->
+     <test thread-count="5" name="branchTest">
+    <classes>
+     
+     <class name="test.BranchTest"/>
+     </classes>
+      </test> <!-- Test -->
+     <test thread-count="5" name="divisionTest">
+    <classes>
+     
+     <class name="test.DivisionTest"/>
+     </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
